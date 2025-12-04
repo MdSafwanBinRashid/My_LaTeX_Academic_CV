@@ -9,4 +9,4 @@ This is my actual CV created in LaTeX. Feel free to use the format/layout as a t
 1. Download `main.tex`
 2. Replace my information with yours
 3. Modify sections as needed
-4. Compile with `pdflatex main.tex`
+4. Compile with `pdflatex`
