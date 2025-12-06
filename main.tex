@@ -1,0 +1,187 @@
+\documentclass[10pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{fontawesome5}
+\usepackage{ragged2e}
+\usepackage{booktabs}
+\usepackage{charter}
+\usepackage{multicol}  
+
+% Colors
+\definecolor{bluecolor}{RGB}{40, 80, 150}
+\definecolor{graycolor}{RGB}{100, 100, 100}
+
+% Formatting
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\usepackage{setspace}
+\setstretch{1.1} 
+\pagestyle{empty}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{bluecolor}}{}{0pt}{}
+\titlespacing{\section}{0pt}{6pt}{3pt}
+
+% Compact lists
+\setlist[itemize]{leftmargin=*, nosep, topsep=2pt, partopsep=0pt}
+\setlist[enumerate]{leftmargin=*, nosep, topsep=2pt, partopsep=0pt}
+
+% Custom commands
+\newcommand{\contacticon}[1]{\raisebox{-0.2ex}{\faIcon{#1}}}
+\newcommand{\link}[2]{\href{#1}{\color{bluecolor}#2}}
+\newcommand{\datedentry}[2]{\textbf{#1} \hfill #2\\}
+\newcommand{\location}[1]{\textit{#1}}
+
+\begin{document}
+\fontsize{10}{13}\selectfont 
+
+% HEADER
+\begin{center}
+    {\Huge \textbf{Md Safwan Bin Rashid}} \\[4pt]
+    {\small 
+        \contacticon{map-marker-alt} 105 Ross Blvd, Apt C8, Hattiesburg, MS 39401 \quad 
+        \contacticon{mobile-alt} (601) 913-8400 \\[2pt]
+        \contacticon{envelope} \href{mailto:mdsafwanbin.rashid@usm.edu}{MdSafwanBin.Rashid@usm.edu} \quad 
+        \contacticon{linkedin} \href{http://www.linkedin.com/in/md-safwan-bin-rashid-887439249}{LinkedIn} \quad 
+        \contacticon{github} \href{https://github.com/MdSafwanBinRashid}{GitHub}
+    }
+\end{center}
+
+\vspace{4pt}
+\noindent Computational Psychology enthusiast with focus on applying Machine Learning and Artificial Intelligence to understand and model human cognition; driven by the thought that one can solve any problem of the universe using ML/DL, as long as one can convert it into numbers (tensors) and find a pattern.
+\vspace{1pt}
+
+% EDUCATION
+\section*{Education}\vspace{0pt}\hrule\vspace{6pt}
+\textit{The University of Southern Mississippi} \hfill Aug 2024 -- May 2028\\
+\textbf{B.S. in Computer Science, Minor in Psychology} \hfill CGPA: 3.86\\
+\textbf{Relevant Coursework:} Data Structures and Algorithm Analysis, Computer Systems, Calculus w/ Analytical Geometry, Info Tech Project Management, Intro to Linear Algebra, General Psychology, Cyber Law and Ethics, Basic Economics
+
+\vspace{1pt}
+
+% EXPERIENCE
+% EXPERIENCE
+\section*{Experience}\vspace{0pt}\hrule\vspace{6pt}
+
+\begin{tabular}{@{}p{0.2\textwidth} p{0.77\textwidth}@{}}
+\textbf{Jul 2025 -- Present} & \textbf{Research Assistant}, \textit{School of Psychology, Uof Southern Mississippi, Hattiesburg, MS} \\
+& Joined the Experimental Health Psychology Lab led by Dr. Tammy Greer to contribute a computer science perspective to interdisciplinary research exploring the intersection of mental health and emerging technologies.\\[4em]
+
+\textbf{Aug 2024 -- Present} & \textbf{Student Worker}, \textit{Aramark Campus, LLC, Hattiesburg, MS} \\
+& Managing cafeteria operations; assisting with catering for campus events.\\[1.5em]
+
+\textbf{Apr 2018 -- Mar 2024} & \textbf{Academic Mentor}, \textit{Self-employed} \\
+& Tutored Mathematics and Science to students ranging from grades 8 to 12.\\[1.5em]
+
+\textbf{Jul 2022 -- Jun 2023} & \textbf{Junior Executive}, \textit{Energypac Power Generation PLC, Dhaka, BD} \\
+& Had the opportunity to secure a year-long role at one of the leading power engineering companies in Bangladesh; handled the FIFO inventory system, and created logistic plans.
+\end{tabular}
+
+\vspace{0pt}
+
+% PROJECTS
+\section*{Projects}\vspace{0pt}\hrule\vspace{6pt}
+\begin{itemize}[label=\raisebox{0.25ex}{\rule{0.7ex}{0.7ex}}]
+    \item \textbf{PyTorch Tabular Data Classification} \textit{(Pilot Project)} -- Built and trained a neural network in PyTorch to classify rice grain types using physical measurements. \faIcon{github}\link{https://github.com/MdSafwanBinRashid/ML_DL_Pilots/blob/main/PyTorch_Tabular_Data_Classification.ipynb}{[Github]}
+    
+    \item \textbf{EEG Signal Processing} \textit{(Pilot Project)} -- Developed MNE-Python pipeline for P300 event-related potential extraction and visualization. \faIcon{github}\link{https://github.com/MdSafwanBinRashid/Electroencephalography/blob/main/EEG_Signal_Processing.ipynb}{[Github]}
+    
+    \item \textbf{AVL Student Database} \textit{(DSA307)} -- Built an AVL-tree-based student record system with O(logn) insert, delete, and search operations. \faIcon{github}\link{https://github.com/MdSafwanBinRashid/AVLStudentDB}{[Github]}
+    
+    \item \textbf{QuizGame} -- Built an interactive web-based quiz with a clean three-screen interface, dynamic question rendering and score tracking. \faIcon{github}\link{https://github.com/MdSafwanBinRashid/QuizGame}{[Github]}
+    
+    \item \textbf{Alumni Networking Platform V1.0} \textit{(ITC371)} -- Created the full project plan outlining structure, management, and execution for an alumni networking system.
+    
+    \item \textbf{Immutable Criminal Record Keeping with Blockchain} \textit{(BCOLBD '23)} -- Represented Team Genesis and developed a whitepaper and poster proposing a Hyperledger Fabric-based evidence management system with secure, permissioned access control.
+\end{itemize}
+
+\vspace{1pt}
+
+% ONGOING RESEARCH PROJECTS
+\section*{Ongoing Research Projects}\vspace{0pt}\hrule\vspace{6pt}
+\begin{itemize}[label=\raisebox{0.25ex}{\rule{0.7ex}{0.7ex}}]
+    \item Stimulating Belonging Through AI To Address Imposter Syndrome and Enhance Cultural Integration Among International Students
+    \item Locus of Control in Virtual World: How Online Racial Discrimination Affects Substance Abuse
+    \item Screen Time, Attention Control, Stress, and Social Functioning: The Psychological Correlates of Smartphone Dependency in College Students
+    \item Dual Burden of Digital Dependency: Night Eating Syndrome and Body Dissatisfaction
+    \item Imposter Syndrome Among Students of Color: The Role of Perfectionism and Emotion Regulation
+    \item Loneliness as a Moderator: Demographic Differences in Sugar-Sweetened Beverage (SSBs) and Mental Health
+    \item Do Social Support and Healthcare Perception Matter? Examining Stress and Depression Among Individuals with Diabetes and Hypertension
+    \item Healthy Minds; Healthy Lives: How Mental Health Communication Promotes Healthy Lifestyles
+    \item Perception of Weight Management: Examining the Influence of Biological, Behavioral, Environmental, and Pharmacological Factors
+    \item Health Faith and Morality: Understanding Predictors of HIV Stigma and Suicide Attitude
+    \item Sweetness in Sips: The Relationship between Individual Difference Factors and Preferred Level of Sweetness
+    \item How Coping and Social Support Shaped Mental Health of Bangladeshi in the USA during the 2024 Student Protests in Bangladesh
+    \item A Triadic Model of Cultural Adaptation: The Role of Food Neophobia and Cultural Intelligence on Cross-Cultural Adjustment
+\end{itemize}
+
+\vspace{1pt}
+
+% CONFERENCE PROCEEDINGS
+\section*{Forthcoming Conference Proceedings}\vspace{0pt}\hrule\vspace{6pt}
+\begin{itemize}[label=\raisebox{0.25ex}{\rule{0.7ex}{0.7ex}}]
+    \item Eating and Drinking During Emotional Distress: How Coping Styles Shape Sugar-Sweetened Beverage (SSB) Consumption and Emotional Eating, \textbf{90th Annual MAS (Event Date March 19-20, 2026)}
+    
+    \item Gynecological Health Disparities and Mental Health Outcomes Among Minority Women, \textbf{72nd Annual Meeting, SEPA (Event Date March 25-28, 2026)}
+\end{itemize}
+
+\vspace{1pt}
+
+% INVOLVEMENT
+\section*{Involvement}\vspace{0pt}\hrule\vspace{6pt}
+\begin{itemize}
+    \item {Volunteer} | Purnota Foundation \hfill Feb 2024 -- Present
+    \item {Event Coordinator} | Bangladeshi Student Association (BSA) \hfill August 2024 -- May 2025
+    \item {French Instructor} | DPT Foreign Language Club | DP Tutorials \hfill June 2023 -- March 2024
+\end{itemize}
+
+\vspace{1pt}
+
+% AWARDS & ACHIEVEMENTS
+\section*{Awards \& Achievements}\vspace{0pt}\hrule\vspace{6pt}
+\begin{itemize}
+    \item {Dean's List} (Fall '24, Spring '25) | School of Computing Sciences and Computer Engineering
+    \item Delegate '24 | Global Peace Chain
+    \item Academic Excellence Scholar '23 (4 years)
+    \item Semi-finalist | ClimateScience Olympiad '23
+    \item {Valedictorian} (Class of '22) | Willes Little Flower School \& College
+    \item Head Boy (Letter of Commendation) | Willes Little Flower School \& College
+\end{itemize}
+
+\vspace{1pt}
+
+% LANGUAGE
+\section*{Language}\vspace{0pt}\hrule\vspace{6pt}
+English (C2), French (B1), Urdu (B1), Bengali (Native)
+
+\vspace{1pt}
+
+% SKILLS
+\section*{Skills}\vspace{0pt}\hrule\vspace{6pt}
+\begin{itemize}[label=$\circ$]
+    \item \textbf{Programming Languages:} C, C++, Python
+    \item \textbf{Database:} MySQL
+    \item \textbf{Machine Learning:} PyTorch, Scikit-learn, NumPy, Pandas, Matplotlib, Seaborn
+    \item \textbf{IDE:} Colab, Jupyter Notebook, VSCode, PyCharm, Xcode, Code::Blocks
+    \item \textbf{SWE:} Git, Data Structure \& Algorithm, HTML5, CSS3, JavaScript
+    \item \textbf{Others:} Academic Research, Competitive Programming, AutoCAD, Microsoft Office
+\end{itemize}
+
+\vspace{1pt}
+
+% REFERENCES
+\section*{References}\vspace{0pt}\hrule\vspace{6pt}
+\noindent\textbf{Dr. Tammy Greer} \\
+Associate Professor, School of Psychology \\
+The University of Southern Mississippi \\
+Contact:\href{mailto:Tammy.Greer@usm.edu}{Tammy.Greer@usm.edu}\\
+
+\noindent\textit{More References available upon request.}
+
+\end{document}
