@@ -3,7 +3,6 @@
 This is my actual CV created in LaTeX. Feel free to use the format/layout as a template for yours.
 
 - `main.tex` - Full LaTeX source code
-- `Academic_CV.pdf` - Compiled Demo PDF
 
 #### To Use
 1. Download `main.tex`
